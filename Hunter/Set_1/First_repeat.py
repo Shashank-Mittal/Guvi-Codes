@@ -2,7 +2,7 @@ try:
 	length =  int(input())
 	string = list(input().split(" "))
 	for i in string :
-		k= string.count(i)
+		k= string.count(int(i))
 		if(k>1):
 			k=i
 			break
