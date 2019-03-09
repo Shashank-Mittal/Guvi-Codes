@@ -1,3 +1,4 @@
+stringE = input()
 string1 = list(input().split(" "))
 string2 = list(input().split(" "))
 flag=0
